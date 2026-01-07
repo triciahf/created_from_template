@@ -11,7 +11,10 @@ repos:
     - id: check-clang-format
       exclude: (.pre-commit-config.yaml)      
     - id: check-headers
-      args: ["-header_line", "Sen Infrastructure", "--fix"]
+      args:
+      - -header_line
+      - Sen Infrastructure
+      - --fix
       exclude: (__init__.py)
     - id: check-cmake-format
     - id: check-markdown
