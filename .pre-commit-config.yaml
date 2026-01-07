@@ -6,10 +6,11 @@ repos:
 
 repos:
 -   repo: https://github.com/triciahf/sen_pre_commit_hooks
-    rev: v0.0.4
+    rev: v0.0.7
     hooks:
     - id: check-clang-format
       exclude: (.pre-commit-config.yaml)      
     - id: check-headers
       args: ["-header_line", "Sen Infrastructure", "--fix"]
-      exclude: (__init__.py)      
+      exclude: (__init__.py)
+    - id: check-cmake-format
