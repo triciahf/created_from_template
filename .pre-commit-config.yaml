@@ -9,7 +9,7 @@ repos:
   rev: v0.0.14
   hooks:
   - id: check-clang-format
-    exclude: (.pre-commit-config.yaml)      
+    exclude: (.pre-commit-config.yaml)
   - id: check-headers
     args:
     - -header_line
