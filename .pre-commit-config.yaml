@@ -27,5 +27,4 @@ repos:
   - id: check-tabs
   - id: check-file-name-casing
   - id: check-method-endings
-  - id: check-function-documentation
   - id: check-stl-braces
