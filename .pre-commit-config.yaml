@@ -8,7 +8,7 @@ repos:
   - id: mixed-line-ending
   - id: end-of-file-fixer
 - repo: https://github.com/triciahf/sen_pre_commit_hooks
-  rev: v0.0.18
+  rev: v0.0.19
   hooks:
   - id: check-clang-format
     exclude: (.pre-commit-config.yaml)
@@ -28,3 +28,4 @@ repos:
   - id: check-file-name-casing
   - id: check-method-endings
   - id: check-function-documentation
+  - id: check-stl-braces
