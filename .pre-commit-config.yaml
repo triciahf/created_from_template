@@ -6,7 +6,7 @@ repos:
 
 repos:
 -   repo: https://github.com/triciahf/sen_pre_commit_hooks
-    rev: v0.0.10
+    rev: v0.0.11
     hooks:
     - id: check-clang-format
       exclude: (.pre-commit-config.yaml)      
@@ -15,3 +15,5 @@ repos:
       exclude: (__init__.py)
     - id: check-cmake-format
     - id: check-markdown
+    - id: check-yaml-format
+      exclude: (.pre-commit-config.yaml)    
