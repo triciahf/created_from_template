@@ -4,4 +4,4 @@ repos:
     hooks:
     - id: check-json
     - id: check-yaml-format
-        exclude: (.pre-commit-config.yaml)
+      exclude: (.pre-commit-config.yaml)
