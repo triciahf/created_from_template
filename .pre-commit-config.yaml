@@ -8,7 +8,7 @@ repos:
   - id: mixed-line-ending
   - id: end-of-file-fixer
 - repo: https://github.com/triciahf/sen_pre_commit_hooks
-  rev: v0.0.14
+  rev: v0.0.15
   hooks:
   - id: check-clang-format
     exclude: (.pre-commit-config.yaml)
@@ -24,3 +24,4 @@ repos:
     exclude: (.pre-commit-config.yaml)
   - id: check-yaml-lint
     exclude: (.pre-commit-config.yaml)
+  - id: check-tabs
